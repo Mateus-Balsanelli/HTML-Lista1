@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Cadatro de novos materiais de aula</title>
+    </head>
+    <body>
+        <div>
+            <h2>Cadastro de novos materiais de aula</h2>
+            <div>
+                <fieldset>
+                    <legend>Lista de materiais já cadastrados</legend>
+                    <ol>
+                        <li>Lápis</li>
+                        <li>Caneta</li>
+                        <li>Papel</li>
+                        <li>Tesoura</li>
+                    </ol>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Cadastrar novo material</legend>
+                    <input type="text" placeholder="Nome">
+                    <br>
+                    <input type="text" placeholder="Preço">
+                    <br>
+                    <label for="Quatidade">Quantidade:</label>
+                    <input type="number">
+                    <br>
+                    <label for="Devolução">Devolução:</label>
+                    <input type="radio" name ="devolução" value="Sim">
+                    <label for="Sim">Sim</label>
+                    <input type="radio" name="devolução" value="Não">
+                    <label for="Não">Não</label>
+                    <br>
+                    <input type="button" name="Limpar" value="Limpar" placeholder="Limpar">
+                    <input type="button" name="Cadastrar" value="Cadastrar" placeholder="Cadastrar">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Dados do último material cadastrado</legend>
+                    <table border="1">
+                        <tr>
+                            <td><center><b>Nome</b></center></td>
+                            <td>Lápis</td>
+                        </tr>
+                        <tr>
+                            <td><center><b>Preço</b></center></td>
+                            <td>R$12,30</td>
+                        </tr>
+                        <tr>
+                            <td><b>Quantidade</b></td>
+                            <td>200</td>
+                        </tr>
+                        <tr>
+                            <td><center><b>Devolução</b></center></td>
+                            <td>Sim</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>     
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="index.html">
+            <button style="border:none;border-radius: 5px;height: 80px;width: 200px;background-color: darkred;font-size: medium;color: aliceblue;">Voltar para página principal!</button>
+        </a>    
+    </body>
+</html>
